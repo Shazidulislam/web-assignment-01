@@ -1,0 +1,89 @@
+
+/* reseat code is start here  */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 400;
+
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62%;
+    font-family: "Fira Sans",sans-serif;
+    background-color: #ffffff;
+}
+body{
+    background-color: #ffffff;
+    width: 120rem;
+    max-width: 150%;
+    margin: auto;
+    box-shadow: .1rem 0.1rem .1rem #4c4c4c, -.1rem 0rem .1rem #4c4c4c ;
+}
+.btn{
+    font-family: "Fira Sans",sans-serif;
+    background-color: #006A50;
+    color: #fff;
+    font-weight: 600;
+    line-height: auto;
+    padding: 17px 34px ;
+    opacity: 100%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+/* reseat code is end here  */
+/* nav code start here  */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px;
+    border: none;
+    opacity:100% ;
+}
+.nav__link{
+    font-size: 2rem;
+    color: #0E0E0E;
+    font-weight: 700;
+    opacity: 100%;
+}
+.nav__btn{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border: 5px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* nav code start here  */
+/* banner section is start here  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    max-width: 1280px;
+    padding: 100px 80px;
+}
+.banner__heading{
+    letter-spacing: 0%;
+    font-size: 24px;
+    color: #0e0e0e80;
+    font-weight: 400;
+    opacity: 100%;
+    font-family: "Fira Sans"sans-serif;
+}
+.banner-sub__heading{
+    font-size: 56px;
+    font-weight: 700;
+    width: 610px;
+}
+/* banner section is end here  */
+
+
