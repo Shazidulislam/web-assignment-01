@@ -189,6 +189,7 @@ body{
     font-size: 14px;
     font-family: "Fira Sans",sans-serif;
     margin:  10px 0;
+    color: #0E0E0E;
 
 }
 .vision-card__btn-1{
@@ -197,7 +198,102 @@ body{
 .vision-card__btn-3{
     background-color: #FFC239;
 }
-/* The Vision of Future style code start here  */
+/* The Vision of Future style code end here  */
+/* challenge section start here  */
+.challenge{
+    margin: 5rem 4rem;
+    background-image: url(../assets/quote-bg.png);
+    background-position: 20px  50px;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    background-color: #fff;
+    border-radius: 16px;
+
+}
+.challenge__description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0e0e0eb7;
+    text-align: justify;
+    line-height: 24px;
+    margin: 1rem 0;
+}
+.challenge__heading{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    padding: 1rem 0;
+}
+.challenge-sub__description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Fira Sans",sans-serif;
+    color: #0e0e0ea9;
+}
+/* challenge section end here  */
+/* recent section style start here  */
+.recent-section{
+    margin: 5rem 4rem;
+}
+.recent-head__container{
+    margin: 5rem 0;
+}
+.recent__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 24px;
+    margin: 5rem 0;
+}
+.recent__description{
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+#extra__class{
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 40%;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+.recent__container-img{
+    width: 408px;
+    height: 306px;
+    opacity: 100%;
+    border-radius: 24px;
+
+}
+.recent__div-heading{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+}
+.date-and__time{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.pal{
+    font-size: 16px;
+    font-weight: 450;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+/* recent section style end here  */
+
+
 
 
 
