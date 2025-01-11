@@ -58,6 +58,7 @@ body{
     color: #0E0E0E;
     font-weight: 700;
     opacity: 100%;
+    margin: 0rem 2rem;
 }
 .nav__btn{
     color: #006A50;
@@ -68,6 +69,7 @@ body{
     border: 5px solid #006A50;
     border-radius: 8px;
     cursor: pointer;
+    margin: 0rem 2rem;
 }
 /* nav code start here  */
 /* banner section is start here  */
@@ -79,7 +81,7 @@ body{
     max-width: 1280px;
     padding: 100px 80px;
     border-radius: 24px;
-    margin: 1rem 0;
+    margin: 1rem 4rem;
 }
 .banner__heading{
     letter-spacing: 0%;
@@ -96,7 +98,9 @@ body{
 }
 /* banner section is end here  */
 /* card style section start here  */
-
+.card-section{
+    margin: 5rem 4rem;
+}
 .card__container{
     display: flex;
 }
@@ -130,6 +134,71 @@ body{
     opacity: 70%;
 }
 /* card style section start here  */
+/* The Vision of Future style code start here  */
+.vision-section{
+    margin: 5rem 4rem;
+}
+.vision-card__heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-family: "Fira Sans",sans-serif;
+}
+.vision__description{
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    width: 1000px;
+    text-align: justify;
+    line-height:24px ;
+    font-size: 14px;
+    margin: 2rem 0;
+}
+.vision__card{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.vision-sub__card{
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+    margin: 2rem 0;
+}
+.card__one{
+    background-color: #548ff552;
+}
+.card__two{
+    background-color: #C6E4D6;
+}
+.card__three{
+    background-color: #F7EBCF;
+}
+.vision-card__heading{
+    font-family: "Fira Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin:  1rem 0;
+}
+.vision-card__description{
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "Fira Sans",sans-serif;
+    margin:  10px 0;
+
+}
+.vision-card__btn-1{
+    background-color: #5490F5;
+}
+.vision-card__btn-3{
+    background-color: #FFC239;
+}
+/* The Vision of Future style code start here  */
+
 
 
 
