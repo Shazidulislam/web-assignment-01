@@ -14,10 +14,10 @@ html{
     scroll-behavior: smooth;
     font-size: 62%;
     font-family: "Fira Sans",sans-serif;
-    background-color: #ffffff;
+    background-color: #F5EFFF;
 }
 body{
-    background-color: #ffffff;
+    background-color: #F5EFFF;
     width: 120rem;
     max-width: 150%;
     margin: auto;
@@ -34,6 +34,13 @@ body{
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+.section__heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-family: "Fira Sans",sans-serif;
+    opacity: 100%;
 }
 /* reseat code is end here  */
 /* nav code start here  */
@@ -88,5 +95,41 @@ body{
     width: 610px;
 }
 /* banner section is end here  */
+/* card style section start here  */
+
+.card__container{
+    display: flex;
+}
+.card__img{
+    padding-bottom: 2rem;
+}
+.card__div{
+    width: 302px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    margin: 1rem;
+}
+.card__heading{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    opacity: 100%;
+    letter-spacing: 0%;
+    padding: 1rem;
+}
+.card__description{
+    padding: 1rem;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+/* card style section start here  */
+
 
 
